@@ -4,9 +4,9 @@
 
 The purpose of this exercise is to build a dynamic weather dashboard which leverages on the OpenWeather API. `localStorage` will be used to store any persistent data.
 
-### Screenshot:
+### GIF Animation:
 
-![Deployed Website](./???.gif)
+![Deployed Website](./animation.gif)
 
 ### Links:
 
