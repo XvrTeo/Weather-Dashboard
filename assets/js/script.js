@@ -160,3 +160,26 @@ var renderCities = () => {
     }
 
 }
+
+// Build event listener
+$('#search-button').on("click", (event) => {
+    event.preventDefault();
+    currentCity = $('#search-city').val();
+    getCurrentConditions(event);
+});
+
+$('#city-results').on("click", (event) => {
+    event.preventDefault();
+    $('#search-city').val(event.target.textContent);
+    currentCity = $('#search-city').val();
+    getCurrentConditions(event);
+});
+
+$("#clear-storage").on("click", (event) => {
+    localStorage.clear();
+    renderCities();
+});
+
+renderCities();
+
+getCurrentConditions();
