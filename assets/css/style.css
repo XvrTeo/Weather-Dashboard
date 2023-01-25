@@ -1,0 +1,30 @@
+.jumbotron {
+    padding: 1rem;
+    border-radius: 0;
+}
+
+#search-button-icon {
+    width: 15px;
+    display: inline-block;
+}
+
+#search-city {
+    width: 80%;
+}
+
+#clear-storage {
+    color: red;
+    font-size: .9em;
+    margin: .5em 0em 0em .5em;
+}
+
+#current-weather {
+    padding-left: 10px;
+}
+
+.weather-card {
+    color: white;
+    background-color: #0d2d49;
+    text-align: left;
+    width: 9rem;
+}
