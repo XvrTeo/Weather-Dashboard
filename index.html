@@ -18,7 +18,51 @@
 </head>
 
 <body>
+    <header class="container-fluid text-white bg-primary text-center">
+        <h1 class="fw-bold p-4">Weather Dashboard</h1>
+    </header>
 
+    <main id="content" class="container">
+        <div class="row">
+
+            <!-- Create search box with call to action placeholder -->
+            <div id="content-left" class="col-md-3">
+                <form>
+                    <label for="search-city">Search for a City:</label>
+                    <div class="form-row">
+                        <input id="search-city" class="form-control" placeholder="Enter a city"
+                            aria-label="Enter a city">
+
+                        <button id="search-button" class="btn btn-primary" type="submit"><i
+                                class="fas fa-search"></i></button>
+                    </div>
+                </form>
+                <div id="search-error"></div>
+                <!-- Previously entered cities -->
+                <ul id="city-results" class="list-group mt-3"></ul>
+                <!-- Clear locally stored data of city names -->
+                <a id="clear-storage" href="#"></a>
+            </div>
+
+            <!-- Display current weather and 5-day forecast of city entered in search -->
+            <div id="content-right" class="col-md-9 pt-2">
+                <div id="current-weather" class="border rounded"></div>
+                <div id="five-day-forecast" class="mt-3"></div>
+            </div>
+        </div>
+    </main>
+
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <!-- Bootstrap -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+    <!-- moment.js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+    <!-- Custom Script -->
+    <script src="./assets/js/script.js"></script>
+    
 </body>
 
 </html>
