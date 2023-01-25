@@ -10,6 +10,6 @@ The purpose of this exercise is to build a dynamic weather dashboard which lever
 
 ### Links:
 
-https://xvrteo.github.io/???/
+https://xvrteo.github.io/weather-dashboard
 
 https://github.com/XvrTeo/weather-dashboard
