@@ -158,7 +158,6 @@ var renderCities = () => {
             $('#clear-storage').html('');
         }
     }
-
 }
 
 // Build event listener
